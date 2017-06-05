@@ -22,3 +22,5 @@ A free trial can be downloaded from: http://guavaman.com/projects/rewired/trial.
 - For more detailed information on getting Rewired and the VRGO chair setup, please check out our short introduction tutorial here: ***** ADD VIDEO
 
 - More detailed Rewired documentation is available here: http://guavaman.com/projects/rewired/docs/
+
+- If you don't notice movement in editor, try clicking on the game window.
