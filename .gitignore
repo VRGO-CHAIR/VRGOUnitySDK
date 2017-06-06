@@ -1,0 +1,12 @@
+Builds/
+Library/
+Temp/
+Obj/
+.DS_Store
+*.csproj
+*.pidb
+*.sln
+*.userprefs
+*.unityproj
+*.Thumbs.db
+*.Thumbs.db.meta
