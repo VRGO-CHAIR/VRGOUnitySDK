@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*A basic implementation of rotation with the VRGO chair. Should you wish to support Rotation, it's only recommended to be supported with camera forward mode.
+ * 
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Rewired;

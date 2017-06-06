@@ -22,10 +22,11 @@ public class VRGOMovement : MonoBehaviour
     [SerializeField]
     private CharacterController cc;
 
-    // Are we moving based on the camera's direction or in world space (ignoring player's rotation).
+    // Are we moving based on the camera's direction or the character's rotation.
     [SerializeField]
     bool useCameraForward;
 
+    // Player camera transform used for player to determine direction (if camera forward mode is on);
     [SerializeField]
     Transform playerCamera;
 
@@ -65,7 +66,8 @@ public class VRGOMovement : MonoBehaviour
         // else we'll use the camera's rotation and multiply the movement vector with it.
         else
         {
-            moveVec = playerCamera.rotation * moveVec;
+            // Slight difference to video as we need to not use x and Z of the camera rotation.
+            moveVec = Quaternion.Euler(0,playerCamera.rotation.eulerAngles.y, 0) * moveVec;
         }
 
         // Then move it.
