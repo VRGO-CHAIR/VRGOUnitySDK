@@ -19,6 +19,6 @@ A free trial can be downloaded from: http://guavaman.com/projects/rewired/trial.
 
 - SteamVR support is available as a seperate package within this plugin but requires the SteamVR plugin to be installed in your project. Steam VR is free and can be downloaded here: https://www.assetstore.unity3d.com/en/#!/content/32647
 
-- For more detailed information on getting Rewired and the VRGO chair setup, please check out our short introduction tutorial here: ***** ADD VIDEO
+- For more detailed information on getting Rewired and the VRGO chair setup, please check out our short introduction tutorial here:https://youtu.be/YVwm8rr2vGw
 
 - More detailed Rewired documentation is available here: http://guavaman.com/projects/rewired/docs/
